@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 100vh;
+}
+
+i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* SIDE BAR STYLES */
+.side-bar {
+  background-color: rgb(102, 111, 240);
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -25px;
+  cursor: pointer;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.controls {
+  margin-left: -60px;
+}
+.main-content {
+  background-color: whitesmoke;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1.3fr 5fr;
+}
+
+/* HEADER STYLES */
+.header {
+  background-color: white;
+  box-shadow: 0 0 10px;
+}
+
+.header-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 2;
+  margin-left: 15px;
+}
+
+input {
+  border: none;
+  background: rgb(241, 236, 236);
+  border-radius: 30px;
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.header-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
+}
+
+div h3 {
+  margin-bottom: -20px;
+  font-weight: 300;
+}
+
+.details img,
+.header-second img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 25px;
+  background: rgb(139, 139, 243);
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+/* MAIN BODY STYLES */
+.main-body {
+  /* background-color: greenyellow; */
+}
